@@ -17,8 +17,4 @@ yarn install
 
 ```javascript
 yarn start
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 66c1432dd3fc2108eb7601283fe2a9f40c6646aa
