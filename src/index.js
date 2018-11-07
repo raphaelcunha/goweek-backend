@@ -4,13 +4,13 @@ import routes from './routes';
 import { Server } from 'http';
 import cors from 'cors'
 import SocketIO from 'socket.io';
-
+import dotenv from 'dotenv'
+dotenv.config();
 const app = express();
-
 const server = Server(app);
 const io = SocketIO(server);
 
-mongoose.connect('mongodb://admin:goweek123@ds155313.mlab.com:55313/goweek-rfa', {
+mongoose.connect(`mongodb://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@ds155313.mlab.com:55313/goweek-rfa`, {
     useNewUrlParser: true
 })
 
