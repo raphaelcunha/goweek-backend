@@ -1,10 +1,9 @@
-# GoWeek    
+# GoWeek - BackEnd   
 
 Uma semana para você descobrir o poder da melhor stack do mercado e levar sua carreira de programador para o próximo nível.
 
-NodeJS
-ReactJS
-React Native
+Primeiro dia - Server - NodeJS
+
 
 ## Installation
 
@@ -18,4 +17,8 @@ yarn install
 
 ```javascript
 yarn start
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 66c1432dd3fc2108eb7601283fe2a9f40c6646aa
